@@ -20,6 +20,7 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
+    token = 123@wertyu689
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
