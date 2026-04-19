@@ -4,6 +4,7 @@ metadata:
   name: valaxy-regapp
   labels: 
      app: regapp
+     password: 123456@qwe
 
 spec:
   replicas: 2 
